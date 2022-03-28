@@ -1,4 +1,4 @@
-# Criando um webpackl com o gulp
+# Criando um webpack com o gulp
 Nesse repoísotorio estou usando o gulp para:
 
 - Minificar arquivos .js da pasta `assets/js` para a pasta `build/js` 
