@@ -15,7 +15,7 @@ function servidor() {
 };
 
 function monitorar(calllback) {
-    watch("pages/*.html", () => series("copyHtml")());
+    watch("assets/pages/*.html", () => series("copyHtml")());
     watch("assets/js/*.js", () => series("tranformJs")());
     watch("assets/sass/*.scss", () => series("tranformCss")());
     watch("assets/image/*.jpg", () => series("copyImages")());

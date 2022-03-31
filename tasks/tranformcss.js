@@ -8,7 +8,7 @@ function transformCss() {
     return gulp.src("assets/sass/index.scss")
         .pipe(sass())
         .pipe(uglifyCss({
-            uglifyComments: true
+            uglifyComments: false
         }))
         .pipe(concat("style.min.css"))
         .pipe(gulp.dest("build/css/"));
