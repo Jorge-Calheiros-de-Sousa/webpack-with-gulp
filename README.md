@@ -9,7 +9,6 @@ Nesse repoísotorio estou usando o gulp para:
 - Monitorar os arquivos para recarregar a página
 
 ## Como rodar a aplicação
-
-Basta rodar o comando `gulp` no terminal que vai abrir o página no navegador
+- Execute o comando `npm i` e depois o comando `gulp` no terminal que vai abrir o página no navegador
 
 #### Em desenvolvimento...
